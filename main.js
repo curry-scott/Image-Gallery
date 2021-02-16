@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 /* Looping through images */
 
-for (i =1; i < 6; i++) {
+for (i = 1; i < 6; i++) {
     let pic = ('images/pic' + i +'.jpg')
     const newImage = document.createElement('img');
     newImage.setAttribute('src',pic);
